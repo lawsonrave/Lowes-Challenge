@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E3ED5A4263AF7C10029805A /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3ED5A3263AF7C10029805A /* CellViewModel.swift */; };
+		9E3ED5A6263AFBDA0029805A /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3ED5A5263AFBDA0029805A /* DetailsViewModel.swift */; };
+		9E3ED5A8263B033F0029805A /* TempListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3ED5A7263B033F0029805A /* TempListViewModel.swift */; };
+		C9F157DD263793DE00CAEDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F157DC263793DE00CAEDE8 /* AppDelegate.swift */; };
+		C9F157DF263793DE00CAEDE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F157DE263793DE00CAEDE8 /* SceneDelegate.swift */; };
+		C9F157E1263793DE00CAEDE8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F157E0263793DE00CAEDE8 /* HomeViewController.swift */; };
+		C9F157E4263793DE00CAEDE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F157E2263793DE00CAEDE8 /* Main.storyboard */; };
+		C9F157E6263793E500CAEDE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F157E5263793E500CAEDE8 /* Assets.xcassets */; };
+		C9F157E9263793E500CAEDE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F157E7263793E500CAEDE8 /* LaunchScreen.storyboard */; };
+		C9F157F72637B55600CAEDE8 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F157F62637B55600CAEDE8 /* HomeVM.swift */; };
+		C9F157FE2637B88700CAEDE8 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F157FD2637B88700CAEDE8 /* Forecast.swift */; };
+		C9F158062637BE4800CAEDE8 /* TempListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F158052637BE4800CAEDE8 /* TempListTableVC.swift */; };
+		C9F158092637BF0900CAEDE8 /* TempList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F158082637BF0900CAEDE8 /* TempList.storyboard */; };
+		C9F1580E2638CCB500CAEDE8 /* TempListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F1580C2638CCB500CAEDE8 /* TempListTableViewCell.swift */; };
+		C9F1580F2638CCB500CAEDE8 /* TempListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F1580D2638CCB500CAEDE8 /* TempListTableViewCell.xib */; };
+		C9F1581B263A1E9200CAEDE8 /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F1581A263A1E9200CAEDE8 /* DetailsVC.swift */; };
+		C9F1581E263A26F400CAEDE8 /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F1581D263A26F400CAEDE8 /* Details.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E3ED5A3263AF7C10029805A /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		9E3ED5A5263AFBDA0029805A /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
+		9E3ED5A7263B033F0029805A /* TempListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempListViewModel.swift; sourceTree = "<group>"; };
+		C9F157D9263793DE00CAEDE8 /* Lawson Lowes Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lawson Lowes Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F157DC263793DE00CAEDE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9F157DE263793DE00CAEDE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9F157E0263793DE00CAEDE8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C9F157E3263793DE00CAEDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9F157E5263793E500CAEDE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9F157E8263793E500CAEDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9F157EA263793E500CAEDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F157F62637B55600CAEDE8 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		C9F157FD2637B88700CAEDE8 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		C9F158052637BE4800CAEDE8 /* TempListTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempListTableVC.swift; sourceTree = "<group>"; };
+		C9F158082637BF0900CAEDE8 /* TempList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TempList.storyboard; sourceTree = "<group>"; };
+		C9F1580C2638CCB500CAEDE8 /* TempListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempListTableViewCell.swift; sourceTree = "<group>"; };
+		C9F1580D2638CCB500CAEDE8 /* TempListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TempListTableViewCell.xib; sourceTree = "<group>"; };
+		C9F1581A263A1E9200CAEDE8 /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		C9F1581D263A26F400CAEDE8 /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9F157D6263793DE00CAEDE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9F157D0263793DE00CAEDE8 = {
+			isa = PBXGroup;
+			children = (
+				C9F157DB263793DE00CAEDE8 /* Lawson Lowes Challenge */,
+				C9F157DA263793DE00CAEDE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9F157DA263793DE00CAEDE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9F157D9263793DE00CAEDE8 /* Lawson Lowes Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9F157DB263793DE00CAEDE8 /* Lawson Lowes Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1580B2638CC8300CAEDE8 /* View */,
+				C9F157F32637958C00CAEDE8 /* Controller */,
+				C9F157F52637B51600CAEDE8 /* ViewModel */,
+				C9F157FC2637B85500CAEDE8 /* Model */,
+				C9F157F12637949E00CAEDE8 /* Project Files */,
+				C9F157E2263793DE00CAEDE8 /* Main.storyboard */,
+				C9F158082637BF0900CAEDE8 /* TempList.storyboard */,
+				C9F1581D263A26F400CAEDE8 /* Details.storyboard */,
+			);
+			path = "Lawson Lowes Challenge";
+			sourceTree = "<group>";
+		};
+		C9F157F12637949E00CAEDE8 /* Project Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F157DC263793DE00CAEDE8 /* AppDelegate.swift */,
+				C9F157DE263793DE00CAEDE8 /* SceneDelegate.swift */,
+				C9F157E5263793E500CAEDE8 /* Assets.xcassets */,
+				C9F157E7263793E500CAEDE8 /* LaunchScreen.storyboard */,
+				C9F157EA263793E500CAEDE8 /* Info.plist */,
+			);
+			name = "Project Files";
+			sourceTree = "<group>";
+		};
+		C9F157F32637958C00CAEDE8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9F157E0263793DE00CAEDE8 /* HomeViewController.swift */,
+				C9F158052637BE4800CAEDE8 /* TempListTableVC.swift */,
+				C9F1581A263A1E9200CAEDE8 /* DetailsVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C9F157F52637B51600CAEDE8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9F157F62637B55600CAEDE8 /* HomeVM.swift */,
+				9E3ED5A7263B033F0029805A /* TempListViewModel.swift */,
+				9E3ED5A3263AF7C10029805A /* CellViewModel.swift */,
+				9E3ED5A5263AFBDA0029805A /* DetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9F157FC2637B85500CAEDE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9F157FD2637B88700CAEDE8 /* Forecast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9F1580B2638CC8300CAEDE8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9F1580C2638CCB500CAEDE8 /* TempListTableViewCell.swift */,
+				C9F1580D2638CCB500CAEDE8 /* TempListTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9F157D8263793DE00CAEDE8 /* Lawson Lowes Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F157ED263793E500CAEDE8 /* Build configuration list for PBXNativeTarget "Lawson Lowes Challenge" */;
+			buildPhases = (
+				C9F157D5263793DE00CAEDE8 /* Sources */,
+				C9F157D6263793DE00CAEDE8 /* Frameworks */,
+				C9F157D7263793DE00CAEDE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lawson Lowes Challenge";
+			productName = "Lawson Lowes Challenge";
+			productReference = C9F157D9263793DE00CAEDE8 /* Lawson Lowes Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9F157D1263793DE00CAEDE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C9F157D8263793DE00CAEDE8 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C9F157D4263793DE00CAEDE8 /* Build configuration list for PBXProject "Lawson Lowes Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9F157D0263793DE00CAEDE8;
+			productRefGroup = C9F157DA263793DE00CAEDE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9F157D8263793DE00CAEDE8 /* Lawson Lowes Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9F157D7263793DE00CAEDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F158092637BF0900CAEDE8 /* TempList.storyboard in Resources */,
+				C9F1581E263A26F400CAEDE8 /* Details.storyboard in Resources */,
+				C9F157E9263793E500CAEDE8 /* LaunchScreen.storyboard in Resources */,
+				C9F1580F2638CCB500CAEDE8 /* TempListTableViewCell.xib in Resources */,
+				C9F157E6263793E500CAEDE8 /* Assets.xcassets in Resources */,
+				C9F157E4263793DE00CAEDE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9F157D5263793DE00CAEDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F157E1263793DE00CAEDE8 /* HomeViewController.swift in Sources */,
+				C9F1581B263A1E9200CAEDE8 /* DetailsVC.swift in Sources */,
+				C9F157DD263793DE00CAEDE8 /* AppDelegate.swift in Sources */,
+				C9F157DF263793DE00CAEDE8 /* SceneDelegate.swift in Sources */,
+				9E3ED5A4263AF7C10029805A /* CellViewModel.swift in Sources */,
+				C9F1580E2638CCB500CAEDE8 /* TempListTableViewCell.swift in Sources */,
+				C9F158062637BE4800CAEDE8 /* TempListTableVC.swift in Sources */,
+				9E3ED5A8263B033F0029805A /* TempListViewModel.swift in Sources */,
+				9E3ED5A6263AFBDA0029805A /* DetailsViewModel.swift in Sources */,
+				C9F157F72637B55600CAEDE8 /* HomeVM.swift in Sources */,
+				C9F157FE2637B88700CAEDE8 /* Forecast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9F157E2263793DE00CAEDE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F157E3263793DE00CAEDE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9F157E7263793E500CAEDE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F157E8263793E500CAEDE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9F157EB263793E500CAEDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9F157EC263793E500CAEDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9F157EE263793E500CAEDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3T46735XP;
+				INFOPLIST_FILE = "Lawson Lowes Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lawson-Hung.Lawson-Lowes-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9F157EF263793E500CAEDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D3T46735XP;
+				INFOPLIST_FILE = "Lawson Lowes Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lawson-Hung.Lawson-Lowes-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9F157D4263793DE00CAEDE8 /* Build configuration list for PBXProject "Lawson Lowes Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F157EB263793E500CAEDE8 /* Debug */,
+				C9F157EC263793E500CAEDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9F157ED263793E500CAEDE8 /* Build configuration list for PBXNativeTarget "Lawson Lowes Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F157EE263793E500CAEDE8 /* Debug */,
+				C9F157EF263793E500CAEDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9F157D1263793DE00CAEDE8 /* Project object */;
+}
